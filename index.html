@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quote Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Love quotes </h1>
+  <div id="box1">
+    <!-- Search box with id search -->
+    <input id = "searchBox1" placeholder="How many quotes 1-5?"></input>
+    <!-- Generate button that calls function  -->
+    <button value = 'send' id = "submit" onclick="loveQuoteBtn()">Generate</button>
+    <INPUT TYPE="button" onClick="history.go(0)" VALUE="Reset">
+    <p id ="renderFirstQuote"><p/>
+  </div>
+</div>
+
+<h1>Inspirational quotes</h1>
+  <div id="box2">
+      <p id='status'></p>
+      <input id = "searchBox2" placeholder="How many quotes 1-5?"></input>
+      <button value = 'send' id = "submit" onclick="inspirationQuoteBtn()">Generate</button>
+      <INPUT TYPE="button" onClick="history.go(0)" VALUE="Reset">
+      <p id ="renderFirstQuote2"><p/>
+    </div>
+  <script src="quoteGen.js"></script>
+</body>
+</html>

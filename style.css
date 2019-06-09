@@ -1,0 +1,54 @@
+html { 
+  background: url("https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body{
+  /* background-color: rgb(188, 186, 186); */
+  background-image: url();
+  background-repeat: 
+}
+
+
+#box1{
+  margin: auto;
+  width: 50%;
+  border: 5px solid rgb(184, 180, 174);
+  background: rgba(7, 3, 6, 0.753);
+  padding: 50px;
+  text-align: center;
+   font-size: 30px;
+   font-style: italic;
+}
+
+#box2{
+  margin: auto;
+  width: 50%;
+  border: 5px solid rgba(24, 23, 24, 0.842);
+  background: rgba(7, 22, 39, 0.342);
+  padding: 50px;
+  text-align: center;
+   font-size: 30px;
+   font-style: italic;
+}
+.mystyle {
+/* color: orange; */
+font-family: bold; 
+}
+
+
+
+h1{
+  text-align: center;
+}
+
+.fade {
+  -webkit-animation: fade 5s;
+  animation: fade 5s;
+  -moz-animation: fade 5s;
+  -o-animation: fade 5s;
+  }
